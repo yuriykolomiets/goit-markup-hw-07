@@ -1091,6 +1091,10 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-society__link:not(last-child) {
+  margin-right: 10px;
+}
+
 .footer-society__link:hover {
   background-color: #2196F3;
 }
@@ -1105,10 +1109,6 @@ header {
 
 .footer-society__link:focus .footer-society__icon {
   fill: #FFFFFF;
-}
-
-.footer-society__link:not(last-child) {
-  margin-right: 10px;
 }
 
 .footer-society__icon {
