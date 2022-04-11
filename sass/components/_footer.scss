@@ -1,5 +1,5 @@
 .page-footer {
-    background-color: #2F303A;
+    background-color: $color_page-footer;
     color: #FFFFFF;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -21,7 +21,7 @@
 
     &:hover,
     &:focus {
-        color: #2196F3;
+        color: $active_color;
     }
 }
 // .logo-second:hover,
@@ -100,13 +100,13 @@
     }
 
     &:hover {
-        background-color: #2196F3;
+        background-color: $active_color;
     }
     &:hover .footer-society__icon {
         fill: #FFFFFF;
     }
     &:focus {
-        background-color: #2196F3;
+        background-color: $active_color;
     }
     &:focus .footer-society__icon {
         fill: #FFFFFF;

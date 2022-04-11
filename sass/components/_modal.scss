@@ -47,16 +47,16 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                   &:hover {
-                    color: #2196F3;
+                    color: $active_color;
                   }
                   &:hover .modal__icon {
-                      fill: #2196F3;
+                      fill: $active_color;
                   } 
                   &:focus {
-                      color: #2196F3;
+                      color: $active_color;
                   }
                   &:focus .modal__icon {
-                        fill: #2196F3;
+                        fill: $active_color;
                   } 
 }
 // .modal__button:hover {
